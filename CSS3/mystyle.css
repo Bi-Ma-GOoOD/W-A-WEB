@@ -5,16 +5,16 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-
-div {
-    display: flex;
-    justify-content: left;
-}
-
-img {
+.imgLogo {
     width: 330px;
     margin-top: 25px;
-    margin-bottom: auto;
+    margin-bottom: 0;
     margin-left: 15px;
     margin-right: auto;
+}
+.thaiNameColorFont {
+    color: white;
+    margin-left: 45px;
+    margin-top: -35px;
+    font-size: 25px;
 }
