@@ -24,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;  /* Align buttons to the left */
-    margin-left: 4px; /* Optional: spacing from left edge */
 }
 .buttonLogin{
     background-color: #FDFFC2;
@@ -32,7 +31,7 @@ body {
     font-family: Sarabun;
     font-size: 25px;
     border-radius: 12px;
-    padding: 10px 121px;
+    padding: 10px 135px;
     margin-top: 25px;
     margin-left: 47px;
     margin-bottom: 20px;
@@ -56,7 +55,7 @@ body {
     opacity: 0.8;
     font-family: Sarabun;
     font-size: 25px;
-    padding: 10px 100px;
+    padding: 10px 114px;
     border-radius: 12px;
     margin-left: 47px;
     margin-bottom: 20px;
@@ -80,7 +79,7 @@ body {
     opacity: 0.8;
     font-family: Sarabun;
     font-size: 25px;
-    padding: 10px 100px;
+    padding: 10px 114px;
     border-radius: 12px;
     margin-left: 47px;
     margin-bottom: 20px;
