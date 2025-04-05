@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    background-image: url('../Image/BackGround/Parking.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.imgLogo {
+    width: 330px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: 15px;
+    margin-right: auto;
+}
+.thaiNameColorFont {
+    color: white;
+    margin-left: 45px;
+    margin-top: -30px;
+    font-size: 25px;
+}
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* Align buttons to the left */
+}
+.buttonLogin{
+    background-color: #FDFFC2;
+    opacity: 0.8;
+    font-family: Sarabun;
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 10px 135px;
+    margin-top: 25px;
+    margin-left: 47px;
+    margin-bottom: 20px;
+    border: 2px solid #FDFFC2;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
+}
+.buttonLogin:hover{
+    cursor: pointer;
+    padding: 10px 111px;
+    opacity: 1.0;
+    color:black;
+    text-decoration: none;
+    
+}
+.buttonLogin:active{
+    background-color: #D3EE98;
+    transition: 0.1s;
+    border: 2px solid #FDFFC2;
+    opacity: 1.0;
+    color:black;
+    text-decoration: none;
+}
+.buttonRegis{
+    background-color: #CB9DF0;
+    opacity: 0.8;
+    font-family: Sarabun;
+    font-size: 25px;
+    padding: 10px 114px;
+    border-radius: 12px;
+    margin-left: 47px;
+    margin-bottom: 20px;
+    border: 2px solid #CB9DF0;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
+}
+.buttonRegis:hover{
+    cursor: pointer;
+    padding: 10px 90px;
+    opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+.buttonRegis:active{
+    background-color: #FDDBBB;
+    transition: 0.1s;
+    border: 2px solid #CB9DF0;
+    opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+.buttonFor{
+    background-color: #4CC9FE;
+    opacity: 0.8;
+    font-family: Sarabun;
+    font-size: 25px;
+    padding: 10px 114px;
+    border-radius: 12px;
+    margin-left: 47px;
+    margin-bottom: 20px;
+    border: 2px solid #4CC9FE;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
+}
+.buttonFor:hover{
+    cursor: pointer;
+    padding: 10px 90px;
+    opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+.buttonFor:active{
+    background-color: #F5F4B3;
+    transition: 0.1s;
+    border: 2px solid #4CC9FE; 
+    opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 13px;
+}
+.line-img{
+    width:100px;
+    height: 58px;
+}
+.srcRef{
+    font-family: Sarabun;
+    text-decoration: none;
+    color: white;
+    margin-left: 139px;
+    &:hover{
+        color:rgb(238, 96, 238);
+    }
+    &:after{
+        margin-left: 139px;
+        color: white;
+    }
+}
