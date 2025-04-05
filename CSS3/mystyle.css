@@ -37,18 +37,24 @@ body {
     margin-bottom: 20px;
     border: 2px solid #FDFFC2;
     transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
 }
 .buttonLogin:hover{
     cursor: pointer;
     padding: 10px 111px;
     opacity: 1.0;
+    color:black;
+    text-decoration: none;
+    
 }
 .buttonLogin:active{
     background-color: #D3EE98;
     transition: 0.1s;
-    box-shadow: 0 10px #FDFFC2;
     border: 2px solid #FDFFC2;
     opacity: 1.0;
+    color:black;
+    text-decoration: none;
 }
 .buttonRegis{
     background-color: #CB9DF0;
@@ -61,18 +67,23 @@ body {
     margin-bottom: 20px;
     border: 2px solid #CB9DF0;
     transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
 }
 .buttonRegis:hover{
     cursor: pointer;
     padding: 10px 90px;
     opacity: 1.0;
+    text-decoration: none;
+    color: black;
 }
 .buttonRegis:active{
     background-color: #FDDBBB;
     transition: 0.1s;
-    box-shadow: 0 10px #CB9DF0;
     border: 2px solid #CB9DF0;
     opacity: 1.0;
+    text-decoration: none;
+    color: black;
 }
 .buttonFor{
     background-color: #4CC9FE;
@@ -85,16 +96,46 @@ body {
     margin-bottom: 20px;
     border: 2px solid #4CC9FE;
     transition-duration: 0.4s;
+    text-decoration: none;
+    color: black;
 }
 .buttonFor:hover{
     cursor: pointer;
     padding: 10px 90px;
     opacity: 1.0;
+    text-decoration: none;
+    color: black;
 }
 .buttonFor:active{
     background-color: #F5F4B3;
     transition: 0.1s;
-    box-shadow: 0 10px #4CC9FE;
-    border: 2px solid #4CC9FE;
+    border: 2px solid #4CC9FE; 
     opacity: 1.0;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 180px;
+    margin-bottom: 13px;
+}
+.line-img{
+    width:100px;
+    height: 58px;
+}
+.srcRef{
+    font-family: Sarabun;
+    text-decoration: none;
+    color: white;
+    margin-left: 139px;
+    &:hover{
+        color:rgb(238, 96, 238);
+    }
+    &:after{
+        margin-left: 139px;
+        color: white;
+    }
 }
